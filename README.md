@@ -1,27 +1,47 @@
-# GoodAngApp
+# Time stuff
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Run `ng lint` to start linting
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Thanks to https://blog.briebug.com/blog/convert-angular-project-tslint-eslint and https://github.com/angular-eslint/angular-eslint ♡
 
-## Further help
+##Технологии, использованные в проекте
+* Angular (1)
+* Сервис (3)
+* Тесты (3)
+* Линтер (3)
+* TypeScript (3)
+* Обращение в сеть (3)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Итого - ? / 16 (https://github.com/dmitryweiner/lectures/blob/main/907%D1%81%D0%B2.md)
+
+##To Do:
+* ~~Установить линтер~~
+* Написать модуль "Вы прожили", показывающий прожитое пользователем время в разных еденицах измерения
+* Написать тесты к модулю "Вы прожили"
+* Сделать хороший css к модулю "Вы прожили"
+* Разбить модуль на компоненты
+* Использовать для модуля сервисы
+* Исправить css и тесты
+***
+* Написать модуль "Игра на запоминание"; Пользователю каким-либо образом показывается набор символов, дается время на запоминание. По истечению времени символы скрываются и пользователь должен каким-либо образом воспроизвести их по памяти
+* Написать тесты к модулю
+* Сделать хороший css к модулю
+* Дополнить модуль - написать код, который будет сохранять "таблицу рекордов" - имя игрока и время за которое он решил задачу
+* Написать сервер, на котором будет сохраняться "таблица рекордов"
+* Изменить модуль чтобы было обращение к серверу
+* Выложить сервер "в интернет" (https://www.heroku.com/)
+* Изменить обращение к сети в модуле
+* Исправить тесты и css
+* Разбить модуль на компоненты
+* Использовать для модуля сервисы
+* Исправить тесты и css 
+*** 
+* Добавить игре уровни сложности
+* Перевести readMe
+* Добавить в readMe скриншоты модулей
